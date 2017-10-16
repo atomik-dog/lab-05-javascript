@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+
+
+var input = prompt("Enter a number.");
+
+
+var ones = Math.round(input % 10);
+var tens = Math.round(input / 10 % 10);
+var hundreds = Math.round(input / 100 % 100);
+var thousands = Math.round(input / 1000 % 1000);
+
+console.log(ones + " ones");
+console.log(tens + " tens");
+console.log(hundreds + " hundreds");
+console.log(thousands + " thousands");
+
+</script>
+</body>
+</html>
